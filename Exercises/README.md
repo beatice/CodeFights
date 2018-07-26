@@ -2,8 +2,23 @@
 
 This folder contains exercises & solution(compiled in Python3) in CodeFights. The "xxx.md" is description of each exercise, "xxx.py" is solution to the exercise. 
 
-#### 01 Almost Increasing Sequence
+#### 01 Check Palindrome
 
-[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/Almost%20Increasing%20Sequence.md) | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/01%20Check%20Palindrome.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/01%20Solution.py)
 
-#### 02 Almost Increasing Sequence
+#### 02 Shape Area
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/02%20Shape%20Area.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/02%20Solution.py)
+
+#### 03 Make Array Consecutive
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/03%20Make%20Array%20Consecutive.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/03%20Solution.py)
+
+#### 04 Almost Increasing Sequence
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/04%20Almost%20Increasing%20Sequence.md) | [Solution]()
+
+#### 0
+
+[Description]() | [Solution]()
+
