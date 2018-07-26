@@ -18,7 +18,18 @@ This folder contains exercises & solution(compiled in Python3) in CodeFights. Th
 
 [Description](https://github.com/beatice/CodeFights/blob/master/Exercises/04%20Almost%20Increasing%20Sequence.md) | [Solution]()
 
+#### 05 Matrix Element Sum
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/05%20Matrix%20Element%20Sum.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/05%20Solution.py)
+
+#### 06 All Longest Strings
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/06%20All%20Longest%20Strings.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/06%20Solution.py)
+
+#### 07 Common Character Count
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/07%20Common%20Character%20Count.md) | [Solution]()
+
 #### 0
 
 [Description]() | [Solution]()
-
