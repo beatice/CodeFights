@@ -30,6 +30,22 @@ This folder contains exercises & solution(compiled in Python3) in CodeFights. Th
 
 [Description](https://github.com/beatice/CodeFights/blob/master/Exercises/07%20Common%20Character%20Count.md) | [Solution]()
 
-#### 0
+#### 08 Is Lucky
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/08%20Is%20Lucky.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/08%20Solution.py)
+
+#### 09 Sort By Height
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/09%20Sort%20By%20Height.md) | [Solution]()
+
+#### 10 Reverse Parentheses
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/10%20Reverse%20Parentheses.md) | [Solution]()
+
+#### 11
+
+[Description]() | [Solution]()
+
+#### 1
 
 [Description]() | [Solution]()
