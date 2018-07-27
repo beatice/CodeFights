@@ -48,15 +48,15 @@ This folder contains exercises & solution(compiled in Python3) in CodeFights. Th
 
 #### 12 Add Border
 
-[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/12%20Add%20Border.md) | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/12%20Add%20Border.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/12%20Solution.py)
 
-#### 1
+#### 13 Are Similar? 
 
-[Description]() | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/13%20Are%20Similar.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/13%20Solution.py)
 
-#### 1
+#### 14 Array Change
 
-[Description]() | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/14%20Array%20Change.md) | [Solution]()
 
 #### 1
 
