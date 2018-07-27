@@ -51,4 +51,4 @@ Given your and your friend's arms' lifting capabilities find out if you two are 
 
 * [output] boolean
 
-  true if you and your friend are equally strong, false otherwise.
+  `true` if you and your friend are equally strong, `false` otherwise.
