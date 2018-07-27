@@ -28,7 +28,7 @@ This folder contains exercises & solution(compiled in Python3) in CodeFights. Th
 
 #### 07 Common Character Count
 
-[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/07%20Common%20Character%20Count.md) | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/07%20Common%20Character%20Count.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/07%20Solution.py)
 
 #### 08 Is Lucky
 
@@ -42,10 +42,46 @@ This folder contains exercises & solution(compiled in Python3) in CodeFights. Th
 
 [Description](https://github.com/beatice/CodeFights/blob/master/Exercises/10%20Reverse%20Parentheses.md) | [Solution]()
 
-#### 11
+#### 11 Alternating Sums
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/11%20Alternating%20Sums.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/11%20Solution.py)
+
+#### 12 Add Border
+
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/12%20Add%20Border.md) | [Solution]()
+
+#### 1
 
 [Description]() | [Solution]()
 
 #### 1
+
+[Description]() | [Solution]()
+
+#### 1
+
+[Description]() | [Solution]()
+
+#### 1
+
+[Description]() | [Solution]()
+
+#### 1
+
+[Description]() | [Solution]()
+
+#### 1
+
+[Description]() | [Solution]()
+
+#### 1
+
+[Description]() | [Solution]()
+
+#### 20
+
+[Description]() | [Solution]()
+
+#### 2
 
 [Description]() | [Solution]()
