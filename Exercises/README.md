@@ -56,15 +56,15 @@ This folder contains exercises & solution(compiled in Python3) in CodeFights. Th
 
 #### 14 Array Change
 
-[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/14%20Array%20Change.md) | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/14%20Array%20Change.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/14%20Solution.py)
 
-#### 1
+#### 15 Palindrome Rearranging
 
-[Description]() | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/15%20Palindrome%20Rearranging.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/15%20Solution.py)
 
-#### 1
+#### 16 Are Equally Strong
 
-[Description]() | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/16%20Are%20Equally%20Strong.md) | [Solution]()
 
 #### 1
 
