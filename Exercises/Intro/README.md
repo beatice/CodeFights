@@ -68,15 +68,15 @@ The "xxx.md" is description of each exercise, "xxx.py" is solution to the exerci
 
 #### 17 Array Maximal Adjacent Difference
 
-[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/Intro/17%20Array%20Maximal%20Adjacent%20Difference.md) | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/Intro/17%20Array%20Maximal%20Adjacent%20Difference.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/Intro/17%20Solution.py)
 
-#### 1
+#### 18 Is IPv4 Address
 
-[Description]() | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/Intro/18%20Is%20IPv4%20Address.md) | [Solution](https://github.com/beatice/CodeFights/blob/master/Exercises/Intro/18%20Solution.py)
 
-#### 1
+#### 19 Avoid Obstacles
 
-[Description]() | [Solution]()
+[Description](https://github.com/beatice/CodeFights/blob/master/Exercises/Intro/19%20Avoid%20Obstacles.md) | [Solution]()
 
 #### 20
 
