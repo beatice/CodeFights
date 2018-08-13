@@ -1,0 +1,19 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE marketReport()
+BEGIN
+    SELECT DISTINCT country AS country, COUNT(competitor) AS competitors
+    FROM foreignCompetitors
+    GROUP BY country
+    UNION
+    SELECT "Total:" AS country, COUNT(*) AS competitors
+    FROM foreignCompetitors;
+END
+
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE marketReport()
+BEGIN
+    SELECT IFNULL(country, 'Total:') AS country, COUNT(*) AS competitors
+    FROM foreignCompetitors
+    GROUP BY country WITH ROLLUP;
+END
