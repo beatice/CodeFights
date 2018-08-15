@@ -1,0 +1,22 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE localCalendar()
+BEGIN
+    SELECT event_id, IF(hours = 24, 
+                        DATE_FORMAT(DATE_ADD(date, interval timeshift MINUTE), '%Y-%m-%d %H:%i'), 
+                        DATE_FORMAT(DATE_ADD(date, interval timeshift MINUTE), '%Y-%m-%d %h:%i %p')
+                ) AS formatted_date
+    FROM events INNER JOIN settings ON events.user_id = settings.user_id
+    ORDER BY event_id;
+END
+
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE localCalendar()
+BEGIN
+    SELECT event_id, (
+        CASE WHEN hours = 24 THEN DATE_FORMAT(IF(timeshift = 0, date, DATE_ADD(date, interval timeshift minute)), '%Y-%m-%d %H:%i')
+        WHEN hours = 12 THEN DATE_FORMAT(IF(timeshift = 0, date, DATE_ADD(date, interval timeshift minute)), '%Y-%m-%d %h:%i %p')
+    END) AS formatted_date
+    FROM events INNER JOIN settings ON events.user_id = settings.user_id
+    ORDER BY event_id;
+END
