@@ -1,0 +1,7 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE routeLength()
+BEGIN
+    SELECT ROUND(SUM(ST_DISTANCE(POINT(c1.x, c1.y), POINT(c2.x, c2.y)))/2, 9) AS total
+    FROM cities AS c1 JOIN cities AS c2
+    WHERE ABS(c1.id - c2.id) = 1;
+END
