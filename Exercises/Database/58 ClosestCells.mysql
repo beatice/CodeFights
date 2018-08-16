@@ -1,0 +1,30 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE closestCells()
+BEGIN
+    SELECT id1, id2
+    FROM (
+        SELECT p1.id AS id1, p2.id AS id2, ST_DISTANCE(POINT(p1.x, p1.y), POINT(p2.x, p2.y)) AS distance
+        FROM positions AS p1 JOIN positions AS p2
+        WHERE p1.id != p2.id
+    ) AS cells
+    WHERE distance = (
+        SELECT MIN(ST_DISTANCE(POINT(p1.x, p1.y), POINT(p2.x, p2.y)))
+        FROM positions AS p1 JOIN positions AS p2
+        WHERE p1.id != p2.id AND p1.id = cells.id1
+    )
+    ORDER BY id1;
+END
+
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE closestCells()
+BEGIN
+    SELECT p1.id AS id1, (
+        SELECT p2.id
+        FROM positions AS p2
+        WHERE p2.id != p1.id
+        ORDER BY ST_DISTANCE(POINT(p1.x, p1.y), POINT(p2.x, p2.y)) LIMIT 1
+    ) AS id2
+    FROM positions AS p1
+    ORDER BY id1;
+END
