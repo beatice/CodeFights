@@ -1,0 +1,15 @@
+CREATE PROCEDURE restaurantInfo()
+BEGIN
+    ALTER TABLE restaurants
+    ADD COLUMN description VARCHAR(100) NULL
+    AFTER name;
+
+    ALTER TABLE restaurants
+    ADD COLUMN active INT(1)
+    AFTER description;
+
+    UPDATE restaurants
+    SET description = 'TBD', active = 1;
+
+    SELECT * FROM restaurants ORDER BY id;
+END
