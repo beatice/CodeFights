@@ -1,0 +1,57 @@
+/*Please add ; after each select statement*/
+CREATE PROCEDURE recentHires()
+BEGIN
+    DROP TABLE IF EXISTS my_temp;
+    CREATE TABLE my_temp (id INT PRIMARY KEY AUTO_INCREMENT, names VARCHAR(20));
+
+    INSERT INTO my_temp 
+    SELECT NULL, pr.names AS names
+    FROM (
+        SELECT name AS names
+        FROM pr_department
+        ORDER BY date_joined DESC LIMIT 5) pr
+    ORDER BY pr.names ASC;
+
+    INSERT INTO my_temp 
+    SELECT NULL, it.names AS names FROM (
+        SELECT name AS names
+        FROM it_department
+        ORDER BY date_joined DESC, name ASC LIMIT 5) it
+     ORDER BY it.names ASC;
+
+    INSERT INTO my_temp
+    SELECT NULL, sales.names AS names FROM (
+        SELECT name AS names
+        FROM sales_department
+        ORDER BY date_joined DESC, name ASC LIMIT 5) sales
+     ORDER BY sales.names ASC;
+
+    SELECT names FROM my_temp;
+END
+
+
+/*Please add ; after each select statement*/
+CREATE PROCEDURE recentHires()
+BEGIN
+    SELECT t.name AS names
+    FROM (
+        SELECT name, flag FROM(
+            SELECT name, '1' AS flag
+            FROM pr_department
+            ORDER BY date_joined DESC LIMIT 5
+        ) AS t1
+        UNION ALL
+        SELECT name, flag FROM(
+            SELECT name, '2' AS flag
+            FROM it_department
+            ORDER BY date_joined DESC LIMIT 5
+        ) AS t2
+        UNION ALL
+        SELECT name, flag FROM(
+            SELECT name, '3' AS flag
+            FROM sales_department
+            ORDER BY date_joined DESC LIMIT 5
+        ) AS t3
+    ) AS t
+    ORDER BY t.flag, t.name;
+END
